@@ -1,0 +1,74 @@
+
+h3{
+  font-size: 42px; ;
+}
+  .portfolio
+{
+  margin-top:50px;
+  text-align: center;
+
+
+  display: flex ;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+
+}
+.pp{
+  margin-top: 100px;
+}
+
+/* icon::after
+{
+ content: " ";
+position: absolute;
+top: 20;
+bottom: 10;
+right: 20;
+width: 90px;
+height: 8px;
+background-color:red ;
+margin-top: 5px;
+margin-left: 55px;
+
+}
+.icon::before
+{
+ content: " ";
+position: absolute;
+top: 20;
+bottom: 10;
+right: 10;
+width: 90px;
+height: 8px;
+background-color:black ;
+margin-top: 5px;
+margin-left: -95px;
+
+} */
+
+.hover{
+  width: 100%;
+  height: 95%;
+  display: none;
+
+  background-color: aqua;
+}
+
+.stylee{
+  width: 80px;
+  height: 5px;
+  background-color: black;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.ddddddd{
+  opacity: 0;
+  z-index: -5;
+  transition: opacity 0.4s;
+}
+.col-md-4:hover .ddddddd{
+  display: block;
+  opacity: 1;
+  z-index: 5;
+}

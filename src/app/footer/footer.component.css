@@ -1,0 +1,37 @@
+.social{
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0.5%;
+
+}
+
+
+ul
+{
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  }
+
+  .color-footer{
+    background-color: #2C3E50;
+    color: white;
+  }
+.lastfooter
+{
+
+ color: white;
+  background-color: #1A252F;
+
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
